@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+ html{
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+ }
+ body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #555;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .fa{
+    display: inline-block;
+    font: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-text-smoothing: antialiased;/*araştır*/
+    -moz-osx-font-smoothing: grayscale;/*araştır*/
+ }
+ #particles-js{
+    background: #1488cc;
+    background: -webkit-linear-gradient(to right, #2b32b2, #1488cc);
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ #particles-js .particles
